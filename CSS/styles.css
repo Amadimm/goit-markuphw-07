@@ -351,7 +351,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         padding-top: 94px;
 }
 
-.img_list1 {
+.heading__list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -362,7 +362,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
 }
 
-.img_list_item {
+.heading__item {
     display: inline-block;
         width: 370px;
         height: 294px;
@@ -370,11 +370,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
         
 
-.img_list_item:nth-child(1) {
+.heading__item:nth-child(1) {
     padding-left: 0px;
 }
 
-.img_list_item:nth-child(3) {
+.heading__item:nth-child(3) {
     padding-right: 0px;
 }
 .img{
@@ -383,7 +383,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         height: 294px;
 }
 
-.background_description{
+.heading__description{
     display: block;
         position: absolute;
         bottom: 0;
@@ -403,7 +403,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 
 
-.team_section {
+.team {
    
     
         width: 100%;
@@ -425,12 +425,12 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         list-style: none;
 }
 
-.socialmedia_item {
+.socialmedia__item {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
 
-.socialmedia_li  {
+.socialmedia__link  {
     display: flex;
         width: 44px;
         height: 44px;
@@ -441,13 +441,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socialmedia_li:hover,
-.socialmedia_li:focus {
+.socialmedia__link:hover,
+.socialmedia__link:focus {
     fill:#FFFFFF;
 background-color: #2196f3;
 border-radius: 50%;
 }
-.heading_team {
+.team__heading {
 font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -461,7 +461,7 @@ font-style: normal;
     margin: 0;
     padding-top:94px ;
 }
-.team_list_item {
+.team__item {
     height: 428px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -469,7 +469,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 }
 
-.team_img_h5 {
+.team__h5 {
    
         font-style: normal;
         font-weight: 500;
@@ -485,7 +485,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
         margin: 0;
 }
 
-.team_list {
+.team__list {
 list-style: none;
 display: flex;
     justify-content: center;
@@ -495,7 +495,7 @@ display: flex;
 }
 
 
-.team_img_p {
+.team__p {
   
         font-style: normal;
         font-weight: 400;
@@ -638,7 +638,7 @@ width: 370px;
             padding-bottom: 20px;
 }
 
-.clients_header {
+.clients__header {
 font-style: normal;
 font-weight: 700;
     font-size: 36px;
@@ -651,7 +651,7 @@ font-weight: 700;
     padding-top: 94px;
 }
 
-.clients_list{
+.clients__list{
     display: flex;
     list-style: none;
     justify-content: center;
@@ -670,7 +670,7 @@ font-weight: 700;
        
     }
  
-    .client_a {
+    .client__a {
         border: 1px solid #afb1b8;
             border-radius: 4px;
             width: 170px;
@@ -682,21 +682,21 @@ font-weight: 700;
              fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-        .client_a:hover ,
-        .client_a:focus {
+        .client__a:hover ,
+        .client__a:focus {
 border-color: #2196F3;
 /* fill: #2196F3; */
                 }
-   .client_a:hover .client_svg,
-   .client_a:focus .client_svg {
+   .client__a:hover .client__svg,
+   .client__a:focus .client__svg {
     fill: #2196F3;
    }
 
-   .client_svg:hover,
-   .client_svg:focus {
+   .client__svg:hover,
+   .client__svg:focus {
     fill: #2196F3;
    }
-    .client_svg {
+    .client__svg {
         fill: #afb1b8;
         transition: 
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -749,7 +749,7 @@ border-color: #2196F3;
 
 /* =======FOOTER====== */
 
-.navigation_link--secondary {
+.footer__logo-secondary {
     display: flex;
     color: #FFFFFF;
     /* padding: 60px 1240px 20px 215px; */
@@ -782,8 +782,26 @@ border-color: #2196F3;
     display: inline-block;
 }
 
-.h3_footer {
+.footer__h3 {
     margin: 0;
+}
+
+.footer__navigation-logo {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    text-decoration: none;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* color: #2196F3; */
+    /* color: #000000; */
+
+
 }
 
 .address {
@@ -794,7 +812,7 @@ border-color: #2196F3;
     
 }
 
-.address_list {
+.address__list {
     list-style: none;
     gap: 9px;
     padding-left: 0%;
@@ -802,7 +820,7 @@ border-color: #2196F3;
     padding: 0px;
 }
 
-.address_p {
+.address__p {
    
         font-style: normal;
         font-weight: 400;
@@ -817,11 +835,11 @@ border-color: #2196F3;
         padding-bottom: 9px;
 }
 
-.address_list_item {
+.address__item {
     padding-bottom: 9px;
 }
 
-.address_link {
+.address__link {
     
         font-style: normal;
         font-weight: 400;
@@ -836,13 +854,13 @@ border-color: #2196F3;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
-.address_link:hover,
-.address_link:focus {
+.address__link:hover,
+.address__link:focus {
     color: #2196F3;
     
 }
 
-.footer_2 {
+.footer2 {
     padding-left: 70px;
     /* margin-bottom: 70px; */
         display: inline-block;
@@ -855,7 +873,7 @@ border-color: #2196F3;
        
 }
 
-.footer_2_socialmedia {
+.footer2__socialmedia {
     display: flex;
         gap: 10px;
         list-style: none;
@@ -865,11 +883,11 @@ border-color: #2196F3;
 
 
 
-.social_svg {
+.socialmedia__svg {
     fill: white;
 }
 
-.socialmedia_li_2 {
+.socialmedia__li-2 {
     display: flex;
     width: 44px;
     height: 44px;
@@ -877,21 +895,21 @@ border-color: #2196F3;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socialmedia_li_2:hover,
-.socialmedia_li_2:focus {
+.socialmedia__li-2:hover,
+.socialmedia__li-2:focus {
     background-color:#2196f3 ;
     
     border-radius: 50%;
 }
 
-.footer_3 {
+.footer3 {
     display: inline-block;
    
-    /* margin-left: 78px; */
+   
     margin-left: auto;
 }
 
-.newsletter_header {
+.newsletter {
     font-weight: 700;
     line-height: 1.14;
     font-size: 14px;
@@ -900,12 +918,12 @@ border-color: #2196F3;
     margin-bottom: 20px;
 }
 
-.newsletter_form {
+.newsletter__form {
     display: flex;
     align-items: center;
 }
 
-.newsletter_input {
+.newsletter__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -919,7 +937,7 @@ border-color: #2196F3;
     margin-right: 12px;
 }
 
-.newsletter_button {
+.newsletter__button {
     width: 200px;
     height: 50px;
     background: #2196F3;
