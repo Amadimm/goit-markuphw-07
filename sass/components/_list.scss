@@ -5,35 +5,35 @@
     gap: 30px;
     padding-top: 94px;
     margin: 0;
-}
-
-.list__item {
+    
+    &__item {
     display: inline-block;
-}
+    
+    
 
-
-
-.list__item-h4 {
-
+&-h4 {
+    
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    
     color: #212121;
 }
 
-.list__item-p {
-
+&-p {
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
-
-
+    
+    
     letter-spacing: 0.03em;
-
+    
     color: #757575;
+}
+}
 }
