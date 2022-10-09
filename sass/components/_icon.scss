@@ -1,8 +1,11 @@
-.icon_sned {
+.icon{
+
+    
+    &_sned {
     padding-left: 24px;
     fill: #FFFFFF;
 }
-.icon__person {
+&__person {
     position: absolute;
     bottom: 20px;
     left: 15px;
@@ -10,7 +13,7 @@
     fill: #212121;
 }
 
-.icon__phone {
+&__phone {
     position: absolute;
     bottom: 20px;
     left: 14.27px;
@@ -18,10 +21,11 @@
     fill: #212121;
 }
 
-.icon__mail {
+&__mail {
     position: absolute;
     bottom: 20px;
     left: 13.5px;
     transform: translateY(50%);
     fill: #212121;
+}
 }
